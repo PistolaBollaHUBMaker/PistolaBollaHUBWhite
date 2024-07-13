@@ -14,12 +14,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(156, 57, 255),
-			Divider = Color3.fromRGB(156, 57, 255),
-			Text = Color3.fromRGB(255,255,255),
-			TextDark = Color3.fromRGB(116, 2, 255)
+			Main = Color3.fromRGB(255, 255, 255),
+			Second = Color3.fromRGB(200, 200, 200),
+			Stroke = Color3.fromRGB(50, 50, 50),
+			Divider = Color3.fromRGB(50, 50, 50),
+			Text = Color3.fromRGB(50,50,50),
+			TextDark = Color3.fromRGB(0, 0, 0)
 		}
 	},
 	SelectedTheme = "Default",
@@ -471,7 +471,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	local UIHidden = false
 
 	WindowConfig = WindowConfig or {}
-	WindowConfig.Name = WindowConfig.Name or string.format('PistolaBollaHUB <font color="#AD00FF">NEO</font>')
+	WindowConfig.Name = WindowConfig.Name or string.format('PistolaBollaHUB <font color="#808080">Sborrata Leggendaria</font>')
 	WindowConfig.ConfigFolder = WindowConfig.ConfigFolder or WindowConfig.Name
 	WindowConfig.SaveConfig = WindowConfig.SaveConfig or false
 	WindowConfig.HidePremium = WindowConfig.HidePremium or false
